@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966810582198",
+    "project_id": "fyp-mobileshop",
+    "storage_bucket": "fyp-mobileshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966810582198:android:0b75fd1456e6f2e3fbfa17",
+        "android_client_info": {
+          "package_name": "com.example.fypmobileshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966810582198-1dt6n4s3t53olga63ourd6chvuijkksb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5eyuFdeSGUP5pirEl2EYKcWPjBOvT1As"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966810582198-1dt6n4s3t53olga63ourd6chvuijkksb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

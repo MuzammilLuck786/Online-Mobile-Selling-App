@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    android:orientation="vertical"
+    tools:context=".My_Cart">
+
+    <TextView
+        android:id="@+id/totalBill"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B4CABB"
+        android:gravity="center"
+        android:text="Total Bill: 0 PKR"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartrecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:padding="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/buybutton"
+        app:layout_constraintTop_toBottomOf="@+id/totalBill">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/order"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Order Now"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

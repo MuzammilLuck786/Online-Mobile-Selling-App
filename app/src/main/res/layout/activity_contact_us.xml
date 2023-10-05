@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contactus"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ContactUs">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="ABOUT US"
+        android:textColor="#E64A19"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/ic_launcher_background"
+        app:layout_constraintBottom_toTopOf="@+id/callNow">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/location">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:text="Aziz Markeet Burewala Near Askari Bank College Road Burewala"
+            android:textColor="#1976D2"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/callNow"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:text="make a Call Now"
+        android:textColor="#1976D2"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/sendMail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:text="Send Email now"
+        android:textColor="#1976D2"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/shareIt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/ic_launcher_background"
+        android:text="Share with others"
+        android:textColor="#1976D2"
+        android:textStyle="bold">
+
+    </Button>
+
+</LinearLayout>
